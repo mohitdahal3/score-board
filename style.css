@@ -76,9 +76,14 @@ span{
 }
 
 .main-table {
-    margin-top: 10rem !important;
+    margin-top: 12rem !important;
 }
 
-.main-table > tbody > tr > td {
-    border: 1px solid rgb(0, 174, 255);
+.main-table > tbody > tr > td , .main-table > tbody > tr > th , .main-table > thead > tr > th {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+.score-table{
+    border-color: black;
 }

@@ -39,6 +39,13 @@ btns.forEach(btn => {
                 spanTag.innerText = `Total: ${spanValue + val}`
 
                 break;
+            case 'teamE':
+                let te = document.getElementById('team-e-total')
+                te.value = Number(te.value) + val
+                inp.value = ''
+                spanTag.innerText = `Total: ${spanValue + val}`
+
+                break;
         
             default:
                 console.log('Error');
