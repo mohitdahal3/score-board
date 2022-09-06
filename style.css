@@ -12,12 +12,13 @@
 }
 
 .header-p1{
-    font-size: x-large;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
 }
 
 .header-p2 , .header-p3{
-    font-size: large;
+    font-size: 0.95rem;
     margin: 0 1.5rem;
 }
 
@@ -35,9 +36,6 @@
     width: fit-content;
 }
 
-.my-marks-input-inp{
-    width: 4rem !important;
-}
 
 
 
@@ -62,4 +60,25 @@
     left: 0;
     right: 0;
     background-color: #7db0db;
+}
+
+
+input{
+    font-size: large;
+}
+
+.total-score{
+    font-size: larger;
+}
+
+span{
+    font-weight: bold;
+}
+
+.main-table {
+    margin-top: 10rem !important;
+}
+
+.main-table > tbody > tr > td {
+    border: 1px solid rgb(0, 174, 255);
 }
