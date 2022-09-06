@@ -1,0 +1,65 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+.my-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+    background-color: #7db0db;
+}
+
+.header-p1{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.header-p2 , .header-p3{
+    font-size: large;
+    margin: 0 1.5rem;
+}
+
+.header-sub{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-round-box , th{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.my-marks-inp{
+    width: fit-content;
+}
+
+.my-marks-input-inp{
+    width: 4rem !important;
+}
+
+
+
+.my-marks-inp > button {
+    padding: 0.25rem;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: #121f2240;
+    color: var(--bs-table-striped-color);
+}
+
+
+.table-striped>tbody>tr:nth-of-type(even)>* {
+    --bs-table-accent-bg: rgba(162, 230, 235, 0.212);
+    color: var(--bs-table-striped-color);
+}
+
+.total-div-fixed{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: #7db0db;
+}
